@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.title {
+ text-align: center;
+}
+
+.calculator {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+}
+
+.screen {
+  grid-column: 1/4;
+}
+
+

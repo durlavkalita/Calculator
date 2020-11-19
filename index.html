@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-conatiner">
+    <div class="title">
+      <h1>Calculator</h1>
+    </div>
+    <div class="calculator">
+      <div><button id="screen" class=""></button></div>
+      <div><button id="7" class="number" onclick="update('7')">7</button></div>
+      <div><button id="8" class="number" onclick="update('8')">8</button></div>
+      <div><button id="9" class="number" onclick="update('9')">9</button></div>
+      <div><button id="+" class="operator" onclick="update('+')">+</button></div>
+      <div><button id="4" class="number" onclick="update('4')">4</button></div>
+      <div><button id="5" class="number" onclick="update('5')">5</button></div>
+      <div><button id="6" class="number" onclick="update('6')">6</button></div>
+      <div><button id="-" class="operator" onclick="update('-')">-</button></div>
+      <div><button id="1" class="number" onclick="update('1')">1</button></div>
+      <div><button id="2" class="number" onclick="update('2')">2</button></div>
+      <div><button id="3" class="number" onclick="update('3')">3</button></div>
+      <div><button id="x" class="operator" onclick="update('x')">x</button></div>
+      <div><button id="0" class="number" onclick="update('0')">0</button></div>
+      <div><button id="dot" class="dot" onclick="update('.')">.</button></div>
+      <div><button id="/" class="operator" onclick="update('/')">/</button></div>
+      <div><button id="equal" class="equal" onclick="displayResult()">=</button></div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
