@@ -1,3 +1,11 @@
 # Calculator
 
-### Does only basic operations. will have to add other functionality later.
+### preview - https://durlavk.github.io/Calculator/
+
+### used-
+- html
+- js
+- css
+
+### to add-
+- keyboard support

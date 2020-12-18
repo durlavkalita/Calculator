@@ -7,29 +7,39 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div class="page-conatiner">
-    <div class="title">
-      <h1>Calculator</h1>
-    </div>
-    <div class="calculator">
-      <div><button id="screen" class=""></button></div>
-      <div><button id="7" class="number" onclick="update('7')">7</button></div>
-      <div><button id="8" class="number" onclick="update('8')">8</button></div>
-      <div><button id="9" class="number" onclick="update('9')">9</button></div>
-      <div><button id="+" class="operator" onclick="update('+')">+</button></div>
-      <div><button id="4" class="number" onclick="update('4')">4</button></div>
-      <div><button id="5" class="number" onclick="update('5')">5</button></div>
-      <div><button id="6" class="number" onclick="update('6')">6</button></div>
-      <div><button id="-" class="operator" onclick="update('-')">-</button></div>
-      <div><button id="1" class="number" onclick="update('1')">1</button></div>
-      <div><button id="2" class="number" onclick="update('2')">2</button></div>
-      <div><button id="3" class="number" onclick="update('3')">3</button></div>
-      <div><button id="x" class="operator" onclick="update('x')">x</button></div>
-      <div><button id="0" class="number" onclick="update('0')">0</button></div>
-      <div><button id="dot" class="dot" onclick="update('.')">.</button></div>
-      <div><button id="/" class="operator" onclick="update('/')">/</button></div>
-      <div><button id="equal" class="equal" onclick="displayResult()">=</button></div>
-    </div>
+  <div class="title">
+    <h1>Calculator</h1>
+  </div>
+  <div class="container">
+    <div class="screen prevScreen"></div>
+    <div class="screen currentScreen">0</div>
+
+    <div class="grid-item clear">AC</div>
+    <div class="grid-item delete">C</div>
+    <div data-key='+' class="grid-item operator">+</div>
+    
+    <div data-key='7' class="grid-item number">7</div>
+    <div data-key='8' class="grid-item number">8</div>
+    <div data-key='9' class="grid-item number">9</div>
+    <div data-key='-' class="grid-item operator">-</div>
+  
+    <div data-key='4' class="grid-item number">4</div>
+    <div data-key='5' class="grid-item number">5</div>
+    <div data-key='6' class="grid-item number">6</div>
+    <div data-key='x' class="grid-item operator">x</div>
+
+    <div data-key='1' class="grid-item number">1</div>
+    <div data-key='2' class="grid-item number">2</div>
+    <div data-key='3' class="grid-item number">3</div>
+    <div data-key='/' class="grid-item operator">/</div>
+
+    <div data-key='0' class="grid-item number zero">0</div>
+    <div data-key='.' class="grid-item number">.</div>
+    <div class="grid-item equal">=</div>
+    
+    
+    
+
   </div>
   <script src="script.js"></script>
 </body>
