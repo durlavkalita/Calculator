@@ -1,7 +1,5 @@
 # Calculator
 
-### preview - https://durlavk.github.io/Calculator/
-
 ### used-
 - html
 - js
